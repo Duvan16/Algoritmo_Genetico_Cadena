@@ -32,7 +32,7 @@ namespace Algoritmo_Genetico_Cadena
             return (float)puntos / (float)valor_esperado.Length;
         }
 
-        //Se mezcla la la informacion entre dos ADN  para crear un hijo
+        //Se mezcla la la informacion entre dos elementos  para crear un hijo
         public Elemento Reproduccion(Elemento padre)
         {
             int punto_cruce = r.Next(0, Genoma.Length);

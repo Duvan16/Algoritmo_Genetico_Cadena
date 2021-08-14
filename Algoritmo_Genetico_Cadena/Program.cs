@@ -9,8 +9,8 @@ namespace Algoritmo_Genetico_Cadena
             //0. Valores Entrada
             Cruzamiento cruzamiento = new Cruzamiento();
             cruzamiento.Valor_esperado = "Politecnico Jaime Isaza Cadavid";
-            cruzamiento.Individuos = 100;//TODO: por qué este valor?
-            cruzamiento.Tasa_mutacion = 0.02f;//TODO: por qué este valor?
+            cruzamiento.Individuos = 150;//Cantidad de individuos que se seleccionan para reproducción
+            cruzamiento.Tasa_mutacion = 0.05f;//La probalidad que un individuo mute
 
             //1. Generar Aleatoriamente una población inicial
             cruzamiento.Generar_Aleatoriamente_Poblacion_Inicial();
